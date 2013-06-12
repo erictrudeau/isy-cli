@@ -5,12 +5,12 @@ a simple cli for controlling Insteon devices using the REST API on the Universal
 
 ## Running
 
-You will need to modify the script to include the server, username and password of your ISY controller.  You wil also need to add the address if your Insteon devices to the **devices** dict.  Note that the format for the address is **XX XX XX 1**.
+You will need to modify the script to include the server, username and password of your ISY controller.  You wil also need to add the name & addresses of your Insteon devices to the **devices** dict.  Note that the format for the address is **XX XX XX 1**.
 
 ## Todo
 
-* Add aliases for devices (maybe)
 * Convert dimmer values to percentages (from 0-255 to 0-100)
+* Add aliases for devices (maybe)
 
 ## Licence
 
